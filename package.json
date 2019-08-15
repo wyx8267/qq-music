@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wyx8267/qq-music/issues"
   },
-  "homepage": "https://github.com/wyx8267/qq-music#readme"
+  "homepage": "https://github.com/wyx8267/qq-music#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
