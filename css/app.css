@@ -43,9 +43,24 @@ ul, ol {
   .navbar .nav-list .nav-item {
     flex: 1;
     text-align: center;
+    position: relative;
     color: rgba(0, 0, 0, 0.6);
     line-height: 40px;
     height: 40px; }
+    .navbar .nav-list .nav-item.active {
+      color: #31c27c; }
+    .navbar .nav-list .nav-item.active::after {
+      position: absolute;
+      content: '';
+      display: block;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: #31c27c; }
+
+.hide {
+  display: none; }
 
 body {
   background: #f4f4f4; }

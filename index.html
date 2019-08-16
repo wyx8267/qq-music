@@ -16,14 +16,21 @@
     </header>
     <nav class="navbar">
         <ul class="nav-list">
-            <li class="nav-item">推荐</li>
-            <li class="nav-item">排行榜</li>
-            <li class="nav-item">搜索</li>
+            <li class="nav-item active" data-view=".rec-view" data-role="tab">推荐</li>
+            <li class="nav-item" data-view=".rank-view" data-role="tab">排行榜</li>
+            <li class="nav-item" data-view=".search-view" data-role="tab">搜索</li>
         </ul>
     </nav>
-    <div class="qq-slider" id="slider">
+    <div class="tab-contents">
+        <div class="rec-view tab-content">
+            <div class="qq-slider" id="slider">
+            </div>
+        </div>
+        <div class="rank-view tab-content hide">排行榜</div>
+        <div class="search-view tab-content hide">搜索</div>
     </div>
     <script src="./scripts/slider.js"></script>
+    <script src="./scripts/tab.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
 
