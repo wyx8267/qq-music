@@ -1,0 +1,14 @@
+.navbar {
+    .nav-list {
+        display: flex;
+        align-items: center;
+
+        .nav-item {
+            flex: 1;
+            text-align: center;
+            color: $nav-item-color;
+            line-height: $nav-item-height;
+            height: $nav-item-height;
+        }
+    }
+}
