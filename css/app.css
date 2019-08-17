@@ -1,11 +1,60 @@
+.radios,
+.playlists {
+  margin: 14px 0 10px 10px; }
+  .radios .title,
+  .playlists .title {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 11px; }
+  .radios .list,
+  .playlists .list {
+    display: flex;
+    flex-wrap: wrap; }
+    .radios .list .list-item,
+    .playlists .list .list-item {
+      flex: 1;
+      flex-basis: 40%;
+      font-size: 14px;
+      background: #fff;
+      margin-right: 10px;
+      margin-bottom: 10px; }
+      .radios .list .list-item .list-media,
+      .playlists .list .list-item .list-media {
+        position: relative; }
+      .radios .list .list-item .list-title,
+      .playlists .list .list-item .list-title {
+        padding: 0 5px;
+        height: 36px;
+        margin: 5px auto;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .radios .list .list-item .icon,
+      .playlists .list .list-item .icon {
+        background-image: url("../images/icon-play.png");
+        background-repeat: no-repeat;
+        background-size: 24px 60px; }
+      .radios .list .list-item .icon-play,
+      .playlists .list .list-item .icon-play {
+        height: 24px;
+        width: 24px;
+        bottom: 5px;
+        right: 5px;
+        position: absolute;
+        background-position: 0 0; }
+      .radios .list .list-item img,
+      .playlists .list .list-item img {
+        display: block;
+        width: 100%; }
+
 * {
   box-sizing: border-box; }
 
 body {
   margin: 0; }
 
-h1 {
-  margin: 0; }
+h1, h2 {
+  margin: 0;
+  font-weight: normal; }
 
 ul, ol {
   padding: 0;
@@ -44,6 +93,7 @@ ul, ol {
     flex: 1;
     text-align: center;
     position: relative;
+    cursor: pointer;
     color: rgba(0, 0, 0, 0.6);
     line-height: 40px;
     height: 40px; }
