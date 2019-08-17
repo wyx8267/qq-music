@@ -1,0 +1,367 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "topList": [
+            {
+                "id": 4,
+                "listenCount": 19400000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000MG3fB1PXeVb.jpg",
+                "songList": [
+                    {
+                        "singername": "王源",
+                        "songname": "易碎的吻"
+                    },
+                    {
+                        "singername": "杨一歌",
+                        "songname": "小小 (Live)"
+                    },
+                    {
+                        "singername": "P!NK",
+                        "songname": "Try"
+                    }
+                ],
+                "topTitle": "巅峰榜·流行指数",
+                "type": 0
+            },
+            {
+                "id": 26,
+                "listenCount": 20000000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000023tkfP1zybLL.jpg",
+                "songList": [
+                    {
+                        "singername": "G.E.M. 邓紫棋",
+                        "songname": "画 (Live Piano Session Ⅱ)"
+                    },
+                    {
+                        "singername": "易烊千玺",
+                        "songname": "Fall"
+                    },
+                    {
+                        "singername": "王力宏/谭维维",
+                        "songname": "缘分一道桥"
+                    }
+                ],
+                "topTitle": "巅峰榜·热歌",
+                "type": 0
+            },
+            {
+                "id": 27,
+                "listenCount": 1980000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001HIgGE46FHzs.jpg",
+                "songList": [
+                    {
+                        "singername": "易烊千玺",
+                        "songname": "Fall"
+                    },
+                    {
+                        "singername": "薛之谦",
+                        "songname": "这么久没见"
+                    },
+                    {
+                        "singername": "TFBOYS",
+                        "songname": "第一次告白"
+                    }
+                ],
+                "topTitle": "巅峰榜·新歌",
+                "type": 0
+            },
+            {
+                "id": 58,
+                "listenCount": 9700000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003UI5MJ2QPWm6.jpg",
+                "songList": [
+                    {
+                        "singername": "G.E.M. 邓紫棋",
+                        "songname": "差不多姑娘"
+                    },
+                    {
+                        "singername": "GAI/大痒痒",
+                        "songname": "哪吒"
+                    },
+                    {
+                        "singername": "永彬Ryan.B",
+                        "songname": "放个大招给你看"
+                    }
+                ],
+                "topTitle": "说唱榜",
+                "type": 0
+            },
+            {
+                "id": 57,
+                "listenCount": 2644960,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000012vBqC2tWce8.jpg",
+                "songList": [
+                    {
+                        "singername": "David Guetta/Aloe Blacc",
+                        "songname": "Never Be Alone (feat. Aloe Blacc)"
+                    },
+                    {
+                        "singername": "Topic/Vigiland/Christopher",
+                        "songname": "Let Us Love"
+                    },
+                    {
+                        "singername": "Franklin/Sorana/Digital Farm Animals",
+                        "songname": "Drowning (feat. Sorana)"
+                    }
+                ],
+                "topTitle": "电音榜",
+                "type": 0
+            },
+            {
+                "id": 28,
+                "listenCount": 12185500,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000034FIDf3TajQ9.jpg",
+                "songList": [
+                    {
+                        "singername": "井胧",
+                        "songname": "把孤独当做晚餐"
+                    },
+                    {
+                        "singername": "程jiajia",
+                        "songname": "山楂树の恋"
+                    },
+                    {
+                        "singername": "Ersen0306",
+                        "songname": "攀登 (抖音版)"
+                    }
+                ],
+                "topTitle": "巅峰榜·网络歌曲",
+                "type": 0
+            },
+            {
+                "id": 5,
+                "listenCount": 5426500,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002xruYC204a0L.jpg",
+                "songList": [
+                    {
+                        "singername": "易烊千玺",
+                        "songname": "Fall"
+                    },
+                    {
+                        "singername": "TFBOYS",
+                        "songname": "第一次告白"
+                    },
+                    {
+                        "singername": "易烊千玺",
+                        "songname": "陷落美好"
+                    }
+                ],
+                "topTitle": "巅峰榜·内地",
+                "type": 0
+            },
+            {
+                "id": 3,
+                "listenCount": 9900000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002AioY92akvdV.jpg",
+                "songList": [
+                    {
+                        "singername": "Shawn Mendes/Camila Cabello",
+                        "songname": "Señorita"
+                    },
+                    {
+                        "singername": "5 Seconds Of Summer/Charlie Puth",
+                        "songname": "Easier (with Charlie Puth) (Remix)"
+                    },
+                    {
+                        "singername": "Billie Eilish/Justin Bieber",
+                        "songname": "bad guy"
+                    }
+                ],
+                "topTitle": "巅峰榜·欧美",
+                "type": 0
+            },
+            {
+                "id": 59,
+                "listenCount": 1980000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000026KTb33A3JJc.jpg",
+                "songList": [
+                    {
+                        "singername": "G.E.M. 邓紫棋",
+                        "songname": "差不多姑娘"
+                    },
+                    {
+                        "singername": "张敬轩",
+                        "songname": "感情寄生族"
+                    },
+                    {
+                        "singername": "陈奕迅",
+                        "songname": "相信你的人"
+                    }
+                ],
+                "topTitle": "香港地区榜",
+                "type": 0
+            },
+            {
+                "id": 16,
+                "listenCount": 4502500,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000040ynSd1cJuF3.jpg",
+                "songList": [
+                    {
+                        "singername": "Red Velvet (레드벨벳)",
+                        "songname": "어떤 별보다 (See the star)"
+                    },
+                    {
+                        "singername": "거미 (Gummy)",
+                        "songname": "기억하나요 내 모든 날과 그때를 (Remember me)"
+                    },
+                    {
+                        "singername": "김진우 (金秦禹)/MINO (宋旻浩)",
+                        "songname": "CALL ANYTIME (Feat.MINO) (또또또)"
+                    }
+                ],
+                "topTitle": "巅峰榜·韩国",
+                "type": 0
+            },
+            {
+                "id": 60,
+                "listenCount": 19500000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000PZyyc3fp670.jpg",
+                "songList": [
+                    {
+                        "singername": "丸子呦",
+                        "songname": "广寒宫"
+                    },
+                    {
+                        "singername": "魏新雨",
+                        "songname": "余情未了"
+                    },
+                    {
+                        "singername": "萧忆情",
+                        "songname": "不谓侠"
+                    }
+                ],
+                "topTitle": "抖音排行榜",
+                "type": 0
+            },
+            {
+                "id": 29,
+                "listenCount": 1940000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002pgNDE1OiNxH.jpg",
+                "songList": [
+                    {
+                        "singername": "鹿晗",
+                        "songname": "世界末日"
+                    },
+                    {
+                        "singername": "张碧晨",
+                        "songname": "今后我与自己流浪"
+                    },
+                    {
+                        "singername": "蔡维泽",
+                        "songname": "来自尘埃的光"
+                    }
+                ],
+                "topTitle": "巅峰榜·影视金曲",
+                "type": 0
+            },
+            {
+                "id": 17,
+                "listenCount": 1499070,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001ZqXbe0xmaEf.jpg",
+                "songList": [
+                    {
+                        "singername": "Aimer (エメ)",
+                        "songname": "Torches"
+                    },
+                    {
+                        "singername": "Aimer (エメ)",
+                        "songname": "Blind to you"
+                    },
+                    {
+                        "singername": "Ayasa绚沙",
+                        "songname": "告白の夜 (告白之夜) (live version)"
+                    }
+                ],
+                "topTitle": "巅峰榜·日本",
+                "type": 0
+            },
+            {
+                "id": 201,
+                "listenCount": 3305460,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M00000189gSR0SUj22.jpg",
+                "songList": [
+                    {
+                        "singername": "蔡徐坤",
+                        "songname": "YOUNG"
+                    },
+                    {
+                        "singername": "王源",
+                        "songname": "易碎的吻"
+                    },
+                    {
+                        "singername": "黄子韬",
+                        "songname": "AI"
+                    }
+                ],
+                "topTitle": "巅峰榜·MV",
+                "type": 0
+            },
+            {
+                "id": 52,
+                "listenCount": 516567,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001szSXt2LtOFv.jpg",
+                "songList": [
+                    {
+                        "singername": "一棵小葱/戚琦",
+                        "songname": "谣儿调"
+                    },
+                    {
+                        "singername": "莫非定律More Feel",
+                        "songname": "一次性劫难"
+                    },
+                    {
+                        "singername": "莉莉童 (LIJIN.)",
+                        "songname": "贝壳"
+                    }
+                ],
+                "topTitle": "巅峰榜·腾讯音乐人原创榜",
+                "type": 0
+            },
+            {
+                "id": 36,
+                "listenCount": 2000000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000wqfAP3fBO3B.jpg",
+                "songList": [
+                    {
+                        "singername": "绿巨人先森",
+                        "songname": "画"
+                    },
+                    {
+                        "singername": "熙月月",
+                        "songname": "缘分一道桥"
+                    },
+                    {
+                        "singername": "朴爱源",
+                        "songname": "来自天堂的魔鬼"
+                    }
+                ],
+                "topTitle": "巅峰榜·K歌金曲",
+                "type": 0
+            },
+            {
+                "id": 61,
+                "listenCount": 784945,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000004cxaSQ3CEbqq.jpg",
+                "songList": [
+                    {
+                        "singername": "吴青峰",
+                        "songname": "太空"
+                    },
+                    {
+                        "singername": "五月天",
+                        "songname": "玫瑰少年"
+                    },
+                    {
+                        "singername": "任贤齐",
+                        "songname": "英雄降临"
+                    }
+                ],
+                "topTitle": "台湾地区榜",
+                "type": 0
+            }
+        ]
+    }
+}

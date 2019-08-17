@@ -52,7 +52,7 @@
 body {
   margin: 0; }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
   font-weight: normal; }
 
@@ -60,6 +60,12 @@ ul, ol {
   padding: 0;
   margin: 0;
   list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i {
+  font-style: normal; }
 
 #header {
   display: flex;
@@ -111,6 +117,60 @@ ul, ol {
 
 .hide {
   display: none; }
+
+.rank-view {
+  margin: 10px; }
+
+.toplist {
+  margin-bottom: 50px; }
+  .toplist .top-item {
+    height: 100px;
+    background: #fff;
+    margin-bottom: 10px; }
+  .toplist .top-item-media {
+    float: left; }
+    .toplist .top-item-media img {
+      width: 100px;
+      height: 100px;
+      display: block; }
+  .toplist .top-item-info {
+    position: relative;
+    padding: 7px 10px 6px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .toplist .top-item-info::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      margin-top: -4px;
+      width: 6px;
+      height: 6px;
+      transform: rotate(315deg);
+      border-right: 1px solid #b2b2b2;
+      border-bottom: 1px solid #b2b2b2; }
+  .toplist .top-item-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px; }
+  .toplist .top-item-list {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5); }
+    .toplist .top-item-list .top-item-song {
+      height: 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+    .toplist .top-item-list .song-index {
+      float: left;
+      min-width: 10px;
+      text-align: center; }
+    .toplist .top-item-list .song-name {
+      color: #000;
+      margin-left: 8px;
+      margin-right: 5px; }
 
 body {
   background: #f4f4f4; }
