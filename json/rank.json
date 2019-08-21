@@ -7,20 +7,20 @@
         "topList": [
             {
                 "id": 4,
-                "listenCount": 19400000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000MG3fB1PXeVb.jpg",
+                "listenCount": 19300000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002ZbGUk3vcBm4.jpg",
                 "songList": [
+                    {
+                        "singername": "音阙诗听/赵方婧",
+                        "songname": "芒种"
+                    },
                     {
                         "singername": "王源",
                         "songname": "易碎的吻"
                     },
                     {
-                        "singername": "杨一歌",
-                        "songname": "小小 (Live)"
-                    },
-                    {
-                        "singername": "P!NK",
-                        "songname": "Try"
+                        "singername": "王源",
+                        "songname": "柔"
                     }
                 ],
                 "topTitle": "巅峰榜·流行指数",
@@ -28,8 +28,8 @@
             },
             {
                 "id": 26,
-                "listenCount": 20000000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000023tkfP1zybLL.jpg",
+                "listenCount": 19300000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000004I4cg72dGBK1.jpg",
                 "songList": [
                     {
                         "singername": "G.E.M. 邓紫棋",
@@ -50,19 +50,19 @@
             {
                 "id": 27,
                 "listenCount": 1980000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001HIgGE46FHzs.jpg",
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003dkiul23zogk.jpg",
                 "songList": [
                     {
                         "singername": "易烊千玺",
                         "songname": "Fall"
                     },
                     {
-                        "singername": "薛之谦",
-                        "songname": "这么久没见"
-                    },
-                    {
                         "singername": "TFBOYS",
                         "songname": "第一次告白"
+                    },
+                    {
+                        "singername": "王源",
+                        "songname": "易碎的吻"
                     }
                 ],
                 "topTitle": "巅峰榜·新歌",
@@ -70,8 +70,8 @@
             },
             {
                 "id": 58,
-                "listenCount": 9700000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003UI5MJ2QPWm6.jpg",
+                "listenCount": 9563000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002zDtQB2LwEH8.jpg",
                 "songList": [
                     {
                         "singername": "G.E.M. 邓紫棋",
@@ -91,8 +91,8 @@
             },
             {
                 "id": 57,
-                "listenCount": 2644960,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000012vBqC2tWce8.jpg",
+                "listenCount": 2520620,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003V2q1d09PwFN.jpg",
                 "songList": [
                     {
                         "singername": "David Guetta/Aloe Blacc",
@@ -112,8 +112,8 @@
             },
             {
                 "id": 28,
-                "listenCount": 12185500,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000034FIDf3TajQ9.jpg",
+                "listenCount": 12167860,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002Us9z91naQ42.jpg",
                 "songList": [
                     {
                         "singername": "井胧",
@@ -133,8 +133,8 @@
             },
             {
                 "id": 5,
-                "listenCount": 5426500,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002xruYC204a0L.jpg",
+                "listenCount": 5187300,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000DDqEg4WFRMe.jpg",
                 "songList": [
                     {
                         "singername": "易烊千玺",
@@ -154,8 +154,8 @@
             },
             {
                 "id": 3,
-                "listenCount": 9900000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002AioY92akvdV.jpg",
+                "listenCount": 9400000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001IV6pq1X4Etn.jpg",
                 "songList": [
                     {
                         "singername": "Shawn Mendes/Camila Cabello",
@@ -175,8 +175,8 @@
             },
             {
                 "id": 59,
-                "listenCount": 1980000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000026KTb33A3JJc.jpg",
+                "listenCount": 1990000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000tz3wA41FXqo.jpg",
                 "songList": [
                     {
                         "singername": "G.E.M. 邓紫棋",
@@ -196,8 +196,8 @@
             },
             {
                 "id": 16,
-                "listenCount": 4502500,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M0000040ynSd1cJuF3.jpg",
+                "listenCount": 4281860,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001dW3KJ4TWdyt.jpg",
                 "songList": [
                     {
                         "singername": "Red Velvet (레드벨벳)",
@@ -218,7 +218,7 @@
             {
                 "id": 60,
                 "listenCount": 19500000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000PZyyc3fp670.jpg",
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003HSzMt1RF29o.jpg",
                 "songList": [
                     {
                         "singername": "丸子呦",
@@ -238,8 +238,8 @@
             },
             {
                 "id": 29,
-                "listenCount": 1940000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002pgNDE1OiNxH.jpg",
+                "listenCount": 1930000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001eommi221XpR.jpg",
                 "songList": [
                     {
                         "singername": "鹿晗",
@@ -259,8 +259,8 @@
             },
             {
                 "id": 17,
-                "listenCount": 1499070,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001ZqXbe0xmaEf.jpg",
+                "listenCount": 1491727,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003s9Jdz0fKzU2.jpg",
                 "songList": [
                     {
                         "singername": "Aimer (エメ)",
@@ -280,8 +280,8 @@
             },
             {
                 "id": 201,
-                "listenCount": 3305460,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M00000189gSR0SUj22.jpg",
+                "listenCount": 3473900,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003J883o2OT98S.jpg",
                 "songList": [
                     {
                         "singername": "蔡徐坤",
@@ -289,11 +289,11 @@
                     },
                     {
                         "singername": "王源",
-                        "songname": "易碎的吻"
+                        "songname": "柔"
                     },
                     {
-                        "singername": "黄子韬",
-                        "songname": "AI"
+                        "singername": "肖战",
+                        "songname": "【魏无羡】曲尽陈情"
                     }
                 ],
                 "topTitle": "巅峰榜·MV",
@@ -301,8 +301,8 @@
             },
             {
                 "id": 52,
-                "listenCount": 516567,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000001szSXt2LtOFv.jpg",
+                "listenCount": 512775,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000004b64uL33VRom.jpg",
                 "songList": [
                     {
                         "singername": "一棵小葱/戚琦",
@@ -322,8 +322,8 @@
             },
             {
                 "id": 36,
-                "listenCount": 2000000,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000000wqfAP3fBO3B.jpg",
+                "listenCount": 1950000,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000002GK5PK1N5B0Q.jpg",
                 "songList": [
                     {
                         "singername": "绿巨人先森",
@@ -343,8 +343,8 @@
             },
             {
                 "id": 61,
-                "listenCount": 784945,
-                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000004cxaSQ3CEbqq.jpg",
+                "listenCount": 697830,
+                "picUrl": "http://y.gtimg.cn/music/photo_new/T003R300x300M000003K29YQ0DZlEn.jpg",
                 "songList": [
                     {
                         "singername": "吴青峰",

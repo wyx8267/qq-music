@@ -1,5 +1,4 @@
 (function () {
-
     fetch('/json/rec.json')
         .then(res => res.json())
         .then(render)
@@ -15,6 +14,8 @@
         renderPlaylists(json.data.songList)
         lazyload(document.querySelectorAll('.lazyload'))
     }
+
+    let search = new Search(document.querySelector('.search-view'))
 
     function renderSlider(slides) {
         slides = slides.map(slide => {
