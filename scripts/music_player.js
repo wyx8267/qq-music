@@ -1,21 +1,26 @@
-class MusicPlayer {
+import { LyricsPlayer } from './lyrics_player.js'
+import { ProgressBar } from './progress_bar.js'
+import { songUrl, albumCoverUrl, lyricsUrl } from './helpers.js'
+
+export class MusicPlayer {
     constructor(el) {
         this.$el = el
         this.$el.addEventListener('click', this)
-        this.createAudio()
+        this.$audio = this.createAudio()
         this.lyrics = new LyricsPlayer(this.$el.querySelector('.player-lyrics'), this.$audio)
         this.progress = new ProgressBar(this.$el.querySelector('.progress'))
         this.fetching = false
     }
     createAudio() {
-        this.$audio = document.createElement('audio')
-        this.$audio.id = `player-${Math.floor(Math.random() * 100)}-${+new Date()}`
-        this.$audio.addEventListener('ended', () => {
+        let $audio = document.createElement('audio')
+        $audio.id = `player-${Math.floor(Math.random() * 100)}-${+new Date()}`
+        $audio.addEventListener('ended', () => {
             this.$audio.play()
             this.lyrics.restart()
             this.progress.restart()
         })
-        document.body.appendChild(this.$audio)
+        document.body.appendChild($audio)
+        return $audio
     }
     handleEvent(event) {
         let target = event.target
@@ -52,18 +57,24 @@ class MusicPlayer {
         this.$el.querySelector('.song-artist').innerText = options.artist
         this.progress.reset(options.duration)
 
-        let url = `https://y.gtimg.cn/music/photo_new/T002R300x300M000${options.albummid}.jpg`
+        let url = albumCoverUrl(options.albummid)
         this.$el.querySelector('.album-cover').src = url
         this.$el.querySelector('.player-background').style.backgroundImage = `url(${url})`
 
         if (options.songid) {
+            if (this.songid !== options.songid) {
+                this.$el.querySelector('.icon-action').className = 'icon-action icon-play'
+            }
+
             this.songid = options.songid
-            this.$audio.src = `http://ws.stream.qqmusic.qq.com/C100${this.songid}.m4a?fromtag=0&guid=12658448`
-            fetch(`https://qq-music-api.now.sh/lyrics?id=${this.songid}`)
+            this.$audio.src = songUrl(this.songid)
+            this.fetching = true
+            fetch(lyricsUrl(this.songid))
                 .then(res => res.json())
-                .then(json => json.lyrics)
+                .then(json => json.lyric)
                 .then(text => this.lyrics.reset(text))
                 .catch(() => { })
+                .then(() => this.fetching = false)
         }
         this.show()
     }

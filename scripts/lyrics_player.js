@@ -1,4 +1,4 @@
-class LyricsPlayer {
+export class LyricsPlayer {
     constructor(el, audio) {
         this.$el = el
         this.$el.innerHTML = '<div class="player-lyrics-lines"></div>'
@@ -58,9 +58,7 @@ class LyricsPlayer {
         if (text) {
             this.text = this.formatText(text) || ''
             this.lyrics = this.text.match(/^\[\d{2}:\d{2}.\d{2}\](.+)$/gm) || []
-            if (this.lyrics.length) {
-                this.render()
-            }
+            if (this.lyrics.length) this.render()
         }
         if (this.lyrics.length) {
             this.$lines.children[this.index].classList.add('active')

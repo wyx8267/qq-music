@@ -1,4 +1,6 @@
-class Search {
+import { searchUrl } from './helpers.js'
+
+export class Search {
     constructor(el) {
         this.$el = el
         this.$input = this.$el.querySelector('#search')
@@ -41,8 +43,7 @@ class Search {
         if (this.keyword !== keyword) this.reset()
         this.keyword = keyword
         this.loading()
-        // fetch(searchUrl(this.keyword, page || this.page))
-        fetch(`https://qq-music-api.now.sh/search?keyword=${this.keyword}&page=${page || this.page}`)
+        fetch(searchUrl(this.keyword, page || this.page))
             .then(res => res.json())
             .then(json => {
                 this.page = json.data.song.curpage
