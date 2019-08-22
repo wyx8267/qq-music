@@ -1,37 +1,44 @@
 .radios,
-.playlists{
+.playlists {
     margin: 14px 0 10px 10px;
+
     .title {
         font-size: 16px;
         color: #000;
         margin-bottom: 11px;
     }
-    .list{
+
+    .list {
         display: flex;
         flex-wrap: wrap;
-        .list-item{
+
+        .list-item {
             flex: 1;
             flex-basis: 40%;
             font-size: 14px;
             background: #fff;
             margin-right: 10px;
             margin-bottom: 10px;
-            .list-media{
+
+            .list-media {
                 position: relative;
             }
-            .list-title{
+
+            .list-title {
                 padding: 0 5px;
                 height: 36px;
                 margin: 5px auto;
                 overflow: hidden;
                 text-overflow: ellipsis;
             }
-            .icon{
+
+            .icon {
                 background-image: url('../images/icon-play.png');
                 background-repeat: no-repeat;
                 background-size: 24px 60px;
             }
-            .icon-play{
+
+            .icon-play {
                 height: 24px;
                 width: 24px;
                 bottom: 5px;
@@ -39,10 +46,31 @@
                 position: absolute;
                 background-position: 0 0;
             }
-            img{
+
+            img {
                 display: block;
                 width: 100%;
             }
         }
     }
+}
+
+.radios .list-title {
+    height: 36px;
+}
+
+
+.rec-view .footer {
+    margin: 10px 0 22px;
+}
+
+.footer-logo {
+    display: block;
+    width: 82px;
+    height: 24px;
+    margin: 0 auto 10px;
+    background-image: url(../images/logo_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
 }

@@ -7,7 +7,17 @@
 @import "helpers";
 @import "rank";
 @import "search";
+@import "player";
 
-body{
+body {
     background: $body-background;
+    font-family: FZLTXIHJW--GB1-0, "hiragino sans gb", "Helvetica Neue", Helvetica, STHeiTi, Arial;
+}
+
+html, body{
+    height: 100%;
+}
+
+.noscroll{
+    overflow: hidden;
 }
