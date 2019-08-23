@@ -57,21 +57,20 @@ export class MusicPlayer {
         this.$el.querySelector('.song-artist').innerText = options.artist
         this.progress.reset(options.duration)
 
-        let url = albumCoverUrl(options.albummid)
+        let url = albumCoverUrl(options.songmid)
         this.$el.querySelector('.album-cover').src = url
         this.$el.querySelector('.player-background').style.backgroundImage = `url(${url})`
 
-        if (options.songid) {
-            if (this.songid !== options.songid) {
+        if (options.songmid) {
+            if (this.songmid !== options.songmid) {
                 this.$el.querySelector('.icon-action').className = 'icon-action icon-play'
             }
 
-            this.songid = options.songid
-            this.$audio.src = songUrl(this.songid)
+            this.songmid = options.songmid
+            this.$audio.src = songUrl(this.songmid)
             this.fetching = true
-            fetch(lyricsUrl(this.songid))
-                .then(res => res.json())
-                .then(json => json.lyric)
+            fetch(lyricsUrl(this.songmid))
+                .then(res => res.text())
                 .then(text => this.lyrics.reset(text))
                 .catch(() => { })
                 .then(() => this.fetching = false)

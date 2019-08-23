@@ -32,8 +32,8 @@ export class LyricsPlayer {
                 break
             }
         }
-        if (this.index > 2) {
-            let y = -(this.index - 2) * this.LINE_HEIGHT
+        if (this.index > 4) {
+            let y = -(this.index - 4) * this.LINE_HEIGHT
             this.$lines.style.transform = `translateY(${y}px)`
         }
     }

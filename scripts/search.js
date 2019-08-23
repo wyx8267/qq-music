@@ -46,10 +46,10 @@ export class Search {
         fetch(searchUrl(this.keyword, page || this.page))
             .then(res => res.json())
             .then(json => {
-                this.page = json.data.song.curpage
-                this.songs[this.page] = json.data.song.list
+                this.page = json.data.curpage
+                this.songs[this.page] = json.data.list
                 this.nomore = json.message === 'no results'
-                return json.data.song.list
+                return json.data.list
             })
             .then(songs => this.append(songs))
             .then(() => this.done())
@@ -60,7 +60,7 @@ export class Search {
         let html = songs.map(song => {
             let artist = song.singer.map(s => s.name).join(' ')
             return `
-            <a class="song-item" href="#player?artist=${artist}&songid=${song.songid}&songname=${song.songname}&albummid=${song.albummid}&duration=${song.interval}">
+            <a class="song-item" href="#player?songmid=${song.songmid}&artist=${artist}&songname=${song.songname}&albummid=${song.albummid}&duration=${song.interval}">
                 <i class="icon icon-music"></i>
                 <div class="song-name ellipsis">${song.songname}</div>
                 <div class="song-artist ellipsis">${artist}</div>

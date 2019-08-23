@@ -1,17 +1,17 @@
 import { LYRICS_URL, SEARCH_URL } from './constants.js'
 
-export function lyricsUrl(songid){
-    return `${LYRICS_URL}?id=${songid}`
+export function lyricsUrl(id){
+    return `${LYRICS_URL}?id=${id}`
 }
 
 export function albumCoverUrl(id){
-    return `https://y.gtimg.cn/music/photo_new/T002R300x300M000${id}.jpg`
+    return `https://v1.itooi.cn/tencent/pic?id=${id}`
 }
 
 export function songUrl(id) {
-    return `http://ws.stream.qqmusic.qq.com/C100${id}.m4a?fromtag=0&guid=12658448`
+    return `https://v1.itooi.cn/tencent/url?id=${id}&quality=flac`
 }
 
 export function searchUrl(keyword, page = 1) {
-    return `${SEARCH_URL}?keyword=${keyword}&page=${page}`
+    return `${SEARCH_URL}?keyword=${keyword}&type=song&pageSize=20&page=${page}`
 }
