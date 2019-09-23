@@ -18,14 +18,14 @@ export class Recommend {
     render() {
         this.renderSlider(this.json.data.slider)
         this.renderRadios(this.json.data.radioList)
-        this.renderPlaylists(this.json.data.songList)
+        // this.renderPlaylists(this.json.data.songList)
         lazyload()
     }
 
     renderSlider(slides) {
         new Slider({
             el: document.querySelector('#slider'),
-            slides: slides.map(slide => ({ link: slide.linkUrl, image: slide.picUrl.replace('http://', 'https://') }))
+            slides: slides.map(slide => ({ link: slide, image: slide }))
         })
     }
     renderRadios(radios) {
@@ -35,7 +35,7 @@ export class Recommend {
                 <img class="lazyload" data-src="${radio.picUrl}">
                 <span class="icon icon-play"></span>
             </div>
-            <div class="list-title">${radio.Ftitle}</div>
+            <div class="list-title">${radio.title}</div>
         </div>
         `).join('')
     }

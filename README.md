@@ -8,4 +8,4 @@
 
 ## API
 
- **API 版权来源于 https://github.com/messoer**
+ **API 版权来源于 https://github.com/openSourceApi**

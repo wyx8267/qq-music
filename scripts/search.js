@@ -46,10 +46,10 @@ export class Search {
         fetch(searchUrl(this.keyword, page || this.page))
             .then(res => res.json())
             .then(json => {
-                this.page = json.data.curpage
-                this.songs[this.page] = json.data.list
+                this.page = json.data.page.currentPage
+                this.songs[this.page] = json.data.songList
                 this.nomore = json.message === 'no results'
-                return json.data.list
+                return json.data.songList
             })
             .then(songs => this.append(songs))
             .then(() => this.done())
@@ -58,12 +58,12 @@ export class Search {
 
     append(songs) {
         let html = songs.map(song => {
-            let artist = song.singer.map(s => s.name).join(' ')
+            // let artist = song.singer.map(s => s.name).join(' ')
             return `
-            <a class="song-item" href="#player?songmid=${song.songmid}&artist=${artist}&songname=${song.songname}&albummid=${song.albummid}&duration=${song.interval}">
+            <a class="song-item" href="#player?songmid=${song.songMid}&artist=${song.singer[0].singerName}&songname=${song.songName}&albummid=${song.albumMid}&lyrics=${song.songId}&singerId=${song.singer[0].singerMid}">
                 <i class="icon icon-music"></i>
-                <div class="song-name ellipsis">${song.songname}</div>
-                <div class="song-artist ellipsis">${artist}</div>
+                <div class="song-name ellipsis">${song.songName}</div>
+                <div class="song-artist ellipsis">${song.singer[0].singerName}</div>
             </a>`}).join('')
         this.$songs.insertAdjacentHTML('beforeend', html)
     }

@@ -57,9 +57,16 @@ export class MusicPlayer {
         this.$el.querySelector('.song-artist').innerText = options.artist
         this.progress.reset(options.duration)
 
-        let url = albumCoverUrl(options.songmid)
-        this.$el.querySelector('.album-cover').src = url
-        this.$el.querySelector('.player-background').style.backgroundImage = `url(${url})`
+        fetch(albumCoverUrl(options.albummid, options.singerId))
+            .then(res => res.json())
+            .then(json => {
+                return json.data.albumImgUrl
+            })
+            .then(url => {
+                this.$el.querySelector('.album-cover').src = url
+                this.$el.querySelector('.player-background').style.backgroundImage = `url(${url})`
+            })
+            .catch(() => this.fetching = false)
 
         if (options.songmid) {
             if (this.songmid !== options.songmid) {
@@ -67,11 +74,25 @@ export class MusicPlayer {
             }
 
             this.songmid = options.songmid
-            this.$audio.src = songUrl(this.songmid)
+
+            fetch(songUrl(this.songmid))
+                .then(res => res.json())
+                .then(json => {
+                    return json.data[0]
+                })
+                .then(src => {
+                    this.$audio.src = src
+                })
+
             this.fetching = true
-            fetch(lyricsUrl(this.songmid))
-                .then(res => res.text())
-                .then(text => this.lyrics.reset(text))
+            fetch(lyricsUrl(options.lyrics))
+                .then(res => res.json())
+                .then(json => {
+                    return json.data.lyric.replace(/\[换行\]/g, '\n')
+                })
+                .then(text => {
+                    this.lyrics.reset(text)
+                })
                 .catch(() => { })
                 .then(() => this.fetching = false)
         }
